@@ -1,0 +1,544 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	background-color: black;
+	padding: 0.5% 0;
+	font-size: 1.2em;
+	font-weight: bold;
+
+}
+
+.navbar-default .navbar-nav li a {
+	color:#52de97 ;
+}
+
+
+.navbar-default .navbar-nav li a.active {
+	color:  white;
+	font-size: 1.4em;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #ff7457;
+}
+
+#home {
+	background: url("https://patrick-chatelier.com/wp-content/uploads/2018/08/Tassili-N-Ajjer-07.jpg") no-repeat center center fixed;
+	display: table;
+	height: 100%; 
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: white;
+}
+.heads {
+	margin-top: 50px;
+	display: table;
+	height: 50%; 
+	position: relative;
+	width: 100%;
+	background-size: cover;
+
+}
+
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	text-shadow: #FFF 1px 0 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	color: black;
+	
+}
+.landing-text h3 {
+	font-size: 250%;
+	font-weight: 350;
+	color: black;
+}
+.landing-text h4 {
+	font-size: 350%;
+	font-weight: 350;
+}
+
+.landing-text p {
+	padding-left: 70px;
+	padding-right: 70px;
+	font-weight: 350;
+	font-size: 150%;
+	color: black;
+}
+
+
+.padding {
+	padding: 40px 0px;
+}
+
+
+
+
+.sep {
+	height: 40px;
+}
+
+
+
+
+
+
+iframe {
+	width: 90%;
+	height: 315px;
+}
+
+
+
+
+
+
+
+footer {
+	width: 100% ;
+	padding: 1% 1% 2% 1% ;
+	background-color: black;
+	color: lightcyan;
+}
+
+.fab {
+	padding: 15px;
+	font-size: 25px;
+	color:  #6effbf;
+}
+
+.fab:hover {
+	color: #1aa58e;
+	text-decoration: none;
+}
+
+
+
+@media (max-width: 750px) {
+	.landing-text h1 {
+		color: black;
+	padding: 0;
+	font-size: 300%;
+	font-weight: 350;
+	
+}
+.landing-text h3 {
+
+	color: black;
+	padding: 0;
+	font-size: 150%;
+	font-weight: 175;
+	
+}
+
+}
+
+
+
+
+
+.stretch-card>.card {
+	width: 100%;
+	min-width: 100%
+}
+
+body {
+	background-color: azure;
+}
+
+.flex {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+	.padding {
+		padding: 1.5rem
+	}
+}
+
+@media (max-width:767.98px) {
+	.padding {
+		padding: 1rem
+	}
+}
+
+.padding {
+	padding: 5rem
+}
+
+.grid-margin,
+.purchace-popup>div {
+	margin-bottom: 25px
+}
+
+.card {
+	border: 0;
+	border-radius: 2px
+}
+
+.card-weather {
+	background: #e1ecff;
+	background-image: linear-gradient(to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff)
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem
+}
+
+
+.card .card-body {
+	padding: 1.88rem 1.81rem
+}
+
+.card-body {
+	flex: 1 1 auto;
+	padding: 1.25rem
+}
+
+.card-weather .weather-date-location {
+	padding: 0 0 38px
+}
+
+.h3,
+h3 {
+	font-size: 1.56rem
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+	color: #969696
+}
+
+p {
+	font-size: 13px
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+	color: #969696
+}
+
+.card-weather .weather-data {
+	padding: 0 0 4.75rem
+}
+
+.mr-auto,
+.mx-auto {
+	margin-right: auto !important
+}
+
+.display-3 {
+	font-size: 2.5rem
+}
+
+.card-weather .card-body {
+	background: #ffffff
+}
+
+.card-weather .weakly-weather {
+	background: #ffffff;
+	overflow-x: auto
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+	flex: 0 0 14.28%;
+	border-right: 1px solid #f2f2f2;
+	padding: 1rem;
+	text-align: center
+}
+
+.mb-0,
+.my-0 {
+	margin-bottom: 0 !important
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+	font-size: 1.2rem
+}
+
+
+
+
+
+
+.sec {
+	position: relative;
+	height: 500px;
+	margin: 20px;
+
+}
+.sec-icon {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding: 5px;
+	z-index: 2;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #1aa58e;
+	border-width: 5px;
+}
+.sec-body {
+	z-index: 1;
+	position: absolute;
+	top: 75px;
+	width: 300px;
+	height: 425px;
+	border-radius: 25px;
+}
+
+.sec-body-content {
+	position: relative;
+	top: 65%;
+	transform: translateY(-65%);
+	margin-right: 15px;
+	margin-left: 15px;
+	height: 70%;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+
+.sec-body-content h3 {
+	color: #2c7873;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Salsa', cursive;
+	padding-top: 1rem;
+	line-height: 1.5;
+}
+.sec-body-content p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: italic;
+
+}
+.sec-body-content .liner {
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 15px;
+	border-style: hidden;
+	border-bottom-style: solid;
+	border-bottom-color: #2c7873;
+	border-bottom-width: 2px;
+}
+
+.section-title .liner {
+	margin: 0 auto;
+	width: 25%;
+	padding: 5px 0 20px 0;
+	border-style: hidden;
+	border-bottom-style: solid;
+	border-bottom-color: #582e6b;
+	border-bottom-width: 3px;
+
+}
+
+.sec-img {
+	margin-top: 15px;
+	height: 200px;
+	width: 200px;
+}
+
+
+.question-card {
+	background-color: #6effbf;
+	padding: 10px;
+}
+.question-header {
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bolder;
+	color: #2c7873;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-shadow: 2px 2px 8px #f6f9ff;
+}
+
+.question {
+	font-size: large;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 10px;
+}
+
+.options {
+	padding-left: 30px;
+}
+.check {
+	width: 95%;
+	text-align: right;
+}
+.checkbtn {
+
+	margin: auto 0;
+}
+
+.carousel-inner > .item > img {
+	max-width:900px;
+	max-height:450px;
+	margin: auto;
+}
+
+.carousel {
+	margin: auto;
+	max-width:900px;
+}
+
+.subscribe {
+	width: 100%;
+	text-align: right;
+}
+
+.socialmedia {
+	text-align: center;
+	font-size: large;
+	color: #6effbf;
+}
+
+.contactf {
+	font-size: medium;
+	margin-left: 30%;
+	color: #f6f9ff;
+}
+
+
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url('https://images.unsplash.com/photo-1527285341945-715b98b98ea2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1022&q=80');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+.Thunderstorm {
+	background: url(https://img.over-blog.com/500x329/1/17/68/82/alg-2010/foudre-eclaire-orage-photo-magnifique.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.Drizzle {
+	background: url(https://www.vitaminedz.com/photos/54/54084-arc-en-ciel-sur-le-port-d-alger.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.Rain {
+	background: url(https://www.algerie-eco.com/wp-content/uploads/2019/11/received-468640070671107.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+.Snow {
+	background: url(https://idata.over-blog.com/0/25/97/94/algerie-alger/alger-la-neige.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.Atmosphere {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/8/8f/Alger_vue_du_haut.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.Clear {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/f/fd/Alger-Grande-Poste-1.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.Clouds {
+	background: url(https://live.staticflickr.com/5162/5344105399_4a37a4a306_b.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.weather-date-location, .weather-data {
+	max-width: 50%;
+	background-color: rgba(255,255,255,0.7);
+
+}
+
+.weather-date-location h2, .weather-data h4 {
+	font-weight: bold;
+	padding-left: 15px;
+	padding-top: 15px;
+	color: black;
+}
+
+.weather-date-location p, .weather-data p {
+	padding-left: 20px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
